@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="css/login.css">
+     <!-- FABICON -->
+     <link rel="icon" type="image" href="images/icon.png">
+     <!-- ICONS -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!-- GOOGLE/CDN FONTS -->
+   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Poppins&display=swap" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/magic-retro" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/corpulent-caps" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/mint-dayz" rel="stylesheet">                
+   <link href="https://fonts.cdnfonts.com/css/lt-bump-smrd?styles=165368" rel="stylesheet"> 
+   <link href="https://fonts.cdnfonts.com/css/crawn" rel="stylesheet">
+     
+     <!-- ANIMATION -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="box-container" style="background-color: rgb(226, 216, 209);">
+        <div class=" back-img">
+            <!-- <a href="index.html">
+            <img class="ms-4 mt-1" src="images/16.png" style="width: 60px; height: 20px;"></a> -->
+            <div  style="display: flex; justify-content: space-between;">
+                <a href="index.html"><img src="images/16.png" class="my-2 ms-1" style="width: 60px; height: 20px;"></a>
+                <a href="index.html"><img src="images/icon.png" class="m-2" style="width: 34px; height: 34px;"></a> 
+            </div>
+            <div class="px-4 text-light">
+                <h3 class="title1 text-dark">Welcome to</h3>
+                <h2 class="title2" ><b>FUNLASANG PINOY</b></h2>
+                <p1 class="mt-2 text-dark mb-0 m-0">Delicious delicacies right at your doorstep</p1><br><br>
+                <a id="btn-acc mb-2 p-0 m-0" class="btn" style="width: 200px;" href="register.html" role="button">Create Account</a>
+            </div>
+        </div>
+        <br>
+
+        <form class="login_form" method="get" name="form" action="index.html" onsubmit="return validated();">
+
+            <h2 id="header1" class="mt-2">User login</h2><br>
+            <div class="form-group text-center">
+                <div class="input-box">
+                    <i class='bx bxs-user mt-3' style="text-indent: 60px;"></i>
+                    <input id="email" autocomplete="off" type="email" name="email"  placeholder="Email" required style="color:rgb(15, 33, 104); font-weight: 600;">
+                </div>
+
+                <div id="email_error">Please fill up your Email</div>
+                <br><br>
+
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt mt-3' style="text-indent: 60px;"  ></i>
+                    <input id="password" type="password" name="password" placeholder="Password"  autocomplete="off"  required style="color:rgb(15, 33, 104); font-weight: 600;">
+                </div>
+
+                <div id="password_error">Please fill up your Password</div>
+                <br>
+
+                <div class="remember-forgot">
+                    <label><input class="me-3" type="checkbox">Remember Me</label>
+                    <a href="forgot.html" class="ms-5">Forgot Password</a>
+                </div>
+                <br>
+
+
+                
+                <button id="login-btn" class="btn p-2 mt-3" type="submit" onclick="login()"><b>LOGIN</b></button>
+                        
+            </div>
+            
+        </form>
+        <br><br>
+
+    </div>
+    
+
+    <script src="js/login.js"></script>
+
+</body>
+</html>

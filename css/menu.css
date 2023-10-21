@@ -1,0 +1,423 @@
+@import url('https://fonts.cdnfonts.com/css/magic-retro');
+@import url('https://fonts.cdnfonts.com/css/mint-dayz');
+@import url('https://fonts.cdnfonts.com/css/crawn');
+
+
+body{
+    overflow-x: hidden;
+    background-color: #EEE3D0!important;
+    font-family: 'Poppins', sans-serif!important;     
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+/* START NAVBAR */
+.navbar{
+  background: #51a2d400; 
+  width: 100%!important;
+  padding: 9px!important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:absolute;
+                                              
+}
+
+.nav-link:hover{
+  font-weight: bold;
+  color:rgba(47, 47, 47, 0.896)!important;
+}
+
+.nav-link:after{
+  content: "";
+  position:absolute;
+  border-bottom: 3px dashed #030302;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+
+.nav-link:hover:after{
+  width: 100%;
+}
+
+.navbar-nav li a{
+  /* color: #042856!important; */
+  color: #000e25e0!important;
+  margin-top: 4px;
+  font-weight: 400;
+  /* text-shadow: 2px 2px  #b11e0ddd; */
+}
+
+/* .dropdown-menu{
+  background-color: #022337!important;
+}
+
+.dropdown-menu li a:hover{
+  background-color: rgb(103, 129, 160)!important;
+} */
+
+@media all and (min-width: 992px){
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+/* END NAVBAR */
+
+
+  /* BANNER */
+.carousel-caption {
+	position: relative!important;
+	left: 10px!important;
+  bottom: -490px!important;
+  text-align: left!important;
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    margin-top: 0 !important;
+}
+
+.banner1{
+    /* background-image: url(../images/23.jpg); */
+    background-image: url(../images/26.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    background-size: cover;
+    height: 120vh;
+    background-attachment: fixed;
+}
+
+.animate__animated.animate__fadeInUp{
+  --animate-duration: 1.3s;
+  transition-timing-function: ease-in;
+}
+
+.title1{
+  color: #ad4b21!important;
+  font-size: 55px;
+  font-family: 'Mint Dayz', sans-serif;
+}
+
+#line1{
+  border: 0!important;
+  border-bottom: 4px solid #b85124 !important;
+  opacity: 1;
+}
+
+/* END */
+
+/* START FOOTER */
+#footer{
+  background: #EEE3D0;
+  /* background: #057AC2; */
+  /* background-image: url('images/7.png');  */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  background-size: cover;
+}
+
+.quicklinks{
+  color: #222222;
+}
+
+#footer li{
+  display: block;
+}
+
+.quicklinks:hover{
+  font-weight: bold;
+  color: rgba(201, 82, 28, 0.856);
+  
+}
+
+/* END FOOTER */
+
+.title2{
+  font-size: 50px;
+  font-family: 'Mint Dayz', sans-serif;
+  color: #D5551B;
+ 
+}
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #f1e3d0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  position: fixed!important;
+ 
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  /* position: relative; */
+  position: fixed; 
+  bottom: 0px; 
+  right: 0px;
+   background-color: #d5561b8c;
+   border-radius: 30px;
+
+}
+
+.openbtn:hover {
+  background-color: #f3e9d8;
+}
+
+#content {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+     padding-top: 15px;
+  }
+  .sidebar a {
+     font-size: 18px;
+  }
+}
+
+@media (max-width: 768px){
+.cheese {
+    position: static;
+    bottom: 8px;
+    left: 16px;
+    text-align: left; 
+    padding-left: 20px; 
+    padding-bottom: 5px;
+}
+}
+
+
+
+
+.cheese {
+  position: relative;
+  width: 50%;
+}
+
+.cheese img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.containerz {
+  position: relative;
+  width: 50%;
+  /* border: 1px solid rgba(0, 0, 0, 0.541)!important; */
+  /* box-shadow: 4px 4px #D5551B!important; */
+}
+
+.containerz:hover{
+  box-shadow: 4px 4px rgb(191, 81, 38)!important;
+}
+
+.containerz img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a65e276d;
+}
+
+.containerz:hover .overlay {
+  opacity: 1;
+}
+
+.containerz a {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* .text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+} */
+
+nav #cartlength{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: large;
+  background-color:  rgba(65, 132, 215, 0.91);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cart .listCart .item{
+  display: grid;
+  
+}
+
+.btn-filters{
+  display: inline-block!important;
+  position: relative!important;
+  overflow: hidden!important;
+  z-index: 0!important;
+  padding: 0.6rem!important;
+  background-color: rgba(243, 237, 230, 0.716)!important;
+  /* border: 0.001rem solid rgba(0, 0, 0, 0.448)!important; */
+  font-family: 'Mint Dayz', sans-serif!important;
+  font-size: 25px!important;
+  color: rgb(41, 41, 41)!important;
+}
+
+.btn-filters:hover{
+  box-shadow: 3px 3px  rgb(191, 81, 38)!important;
+  color: rgb(214, 90, 33)!important;
+}
+
+.btn-filters2{
+  font-weight: 800!important;
+  margin: 1rem;
+  font-size: 1.1rem!important;
+}
+
+.btn-filters2:hover{
+  font-weight: 800!important;
+  margin: 1rem;
+  font-size: 1.1rem!important;
+  color: rgb(197, 71, 13)!important;
+}
+
+.bi-bag-plus:hover{
+  color: rgb(197, 71, 13)!important;
+}
+
+/* @media (min-width: 768px) {
+  .modal-lg {
+    width: 100%;
+  }
+} */
+
+.btn-modal{
+  display: inline-block!important;
+  position: relative!important;
+  overflow: hidden!important;
+  z-index: 0!important;
+  padding: 0.2rem!important;
+  background-color: rgba(243, 237, 230, 0.716)!important;
+  border: 0.001rem solid black!important;
+  font-family: 'Mint Dayz', sans-serif!important;
+  font-size: 21px!important;
+  color: rgb(191, 81, 38)!important;
+  box-shadow: 3px 3px rgba(32, 32, 32, 0.815)!important;
+}
+
+.card-title{
+  font-family: 'Mint Dayz', sans-serif!important;
+  font-size: 27px!important;
+  color: rgb(191, 81, 38)!important;
+}
+
+.card-modal{
+  /* border: 1px solid black; */
+  box-shadow: 3px 3px rgba(32, 32, 32, 0.881)!important;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 1px;
+  left: 0px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: rgb(29, 29, 29);
+  cursor: pointer;
+  padding: 17px;
+  border-radius: 4px;
+  background-color: #d5561b00;
+  border-radius: 50px;
+}
+
+#myBtn:hover{
+  color: rgb(191, 81, 38)!important;
+}
+
+.bg-overlay2 {
+  background: linear-gradient(rgba(76, 69, 13, 0.273), rgba(219, 114, 96, 0.503)), url(../images/24.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 300px;
+  padding-top: 10px;
+}

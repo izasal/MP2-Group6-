@@ -1,0 +1,138 @@
+body{
+    background-image: url(../images/11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    background-attachment: fixed;
+    overflow: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif!important;
+}
+
+.box-container{
+    position: relative;
+    height: 690px;
+    width: 570px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 6px 6px rgba(191, 55, 10, 0.896);
+}
+
+/* REGISTER.HTML */
+.box-container2{
+    position: relative;
+    height: 690px;
+    width: 570px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 6px 6px rgba(191, 55, 10, 0.896);
+}
+
+.remember-forgot{
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 15px;
+    /* margin: -10px 50px auto; */
+}
+
+#flexCheckDefault{
+    width: 10%!important;
+  
+}
+
+/* REGISTER.HTML */
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 17px 50px 20px 20px;
+    background: rgb(208, 200, 189);
+    text-indent: 35px;
+}
+  
+.input-box i{
+    position: absolute;
+    color: rgba(82, 82, 82, 0.744);
+    transform: translate(-50%);
+    font-size: 25px;
+}
+
+.input-box input::placeholder{
+    color: rgba(82, 82, 82, 0.744);
+    font-weight: 600;
+}
+
+#header1{
+    margin-top: -10px;
+    color: rgb(65, 66, 142);
+    text-align: center;
+    font-weight: bold; 
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 25px;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #2f5d9e;
+}
+ 
+.form-group input{
+    width : 60%;
+}
+
+#login-btn {
+    background-color: #4f7fac;
+    border-radius: 20px;
+    font-size: 17px;
+    text-align: center;
+    width: 30%;   
+    color: rgb(237, 235, 234);
+}
+
+#login-btn:hover{
+    background-color: rgb(237, 147, 105);
+    transform:scale(1.09);
+    color: rgb(15, 33, 104);
+}
+ 
+
+
+
+.btn{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    /* background-color: #f49632!important; */
+    background-color: #a7aabdda!important;;
+    color: #2e2e2e!important;
+    text-decoration: none;
+    border-radius: 10px!important; 
+    padding: 10px!important;
+
+
+}
+
+.btn:hover{
+box-shadow: 3px 3px rgb(52, 52, 52)!important;
+}
+

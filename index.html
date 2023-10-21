@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- FABICON -->
+    <link rel="icon" type="image" href="images/icon.png">
+   <!-- GOOGLE/CDN FONTS -->
+   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Poppins&display=swap" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/magic-retro" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/corpulent-caps" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/mint-dayz" rel="stylesheet">                
+   <link href="https://fonts.cdnfonts.com/css/lt-bump-smrd?styles=165368" rel="stylesheet"> 
+   <link href="https://fonts.cdnfonts.com/css/crawn" rel="stylesheet">
+   <!-- BOOTICONS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   <!-- JS SLIDER -->
+   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <!-- FB CHAT -->
+    <!-- <div id="fb-root"></div>
+  
+   <div id="fb-customer-chat" class="fb-customerchat">
+   </div>
+   <script>
+     var chatbox = document.getElementById('fb-customer-chat');
+     chatbox.setAttribute("page_id", "130385166825019");
+     chatbox.setAttribute("attribution", "biz_inbox");
+   </script>
+  
+   <script>
+     window.fbAsyncInit = function() {
+       FB.init({
+         xfbml            : true,
+         version          : 'v18.0'
+       });
+     };
+
+     (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+   </script> -->
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container-fluid">
+            <div class="mx-auto">
+                <a href="index.html">
+                <img src="images/18.png" class="ms-4" style="width: 120px; height: 90px;">
+                <!-- <a class="navbar-brand mx-auto" href="#" style="color: #E4D4B5; font-size: 27px;"><b>Funlasang Pinoy</b></a> -->
+                </a>
+            </div>
+            <div>
+                <button class="navbar-toggler" style="color: #af853000" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="about.html" role="button">
+                        About
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Food History & Recipes</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="menu.html" role="button" >
+                        Our Menu
+                        </a>
+                         <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Breakfast</a></li>
+                            <li><a class="dropdown-item" href="#">Lunch</a></li>
+                            <li><a class="dropdown-item" href="#">Dinner</a></li>
+                        </ul>  -->
+                    </li>
+                    <!-- <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" aria-current="page" href="order.html">Order</a>
+                    </li> -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="contact.html" role="button">
+                        Contact
+                        </a>
+                        <!-- <ul class="dropdown-menu" style="background-color:  #022337;">
+                            <li><a class="dropdown-item" href="#">Form</a></li>
+                            <li><a class="dropdown-item" href="#">FAQs</a></li> 
+                        </ul> -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="place-order" class="nav-link" href="order.html">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3176/3176397.png" class="mx-2" style="height: 40px; width: 40px;">
+                            <p id="cartlength" class="d-inline-block" ><b>0</b></p>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="login.html">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4018/4018431.png" class="mx-2" style="height: 40px; width: 40px;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <br><br>
+    
+    <!-- BANNER -->
+    <div class="banner1 container-fluid" style="margin-top: -480px;">
+        <div class="carousel-caption d-md-block animate__animated animate__fadeInUp">
+            <h1 class=" title1 mt-5 pt-2 text-center">Welcome to Funlasang Pinoy</h1>
+            <hr id="line1" class="w-50 my-auto mx-auto">
+            <p class="caption1 fs-2 mt-3 text-center"><span style="color:#5B74BE ">Tasty.</span> <span style="color:rgb(232, 156, 24) ">Nutritious</span><span style="color: #D5551B"> F U N !</span> </p>
+            <button id="btn-banner" class="btn b-0 p-0 px-2 py-1"  onclick = "window.location.href='menu.html'"> <i class="bi bi-shop fs-3 me-2"></i> Shop </button>
+            <!-- <a href="menu.html" class="btn btn-home border-0  px-4 py-2 fs-5" style="background-color:#f1f0ef">Order Now</a>     -->
+        </div> 
+    </div>
+
+    <!-- TRANSPA BANNER -->
+    <!-- <section class="home container-fluid p-3" id="home" style=" margin-top: -180px;">
+        <div class="content col-6 m-3 bg-primary">
+            <h3 class="mb-5 text-dark">Traditional, Filipino Delicacies</h3>
+            <p class="mb-5 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptatibus dolorem consequuntur maiores corporis quis sed ipsum porro pariatur eveniet, itaque eos distinctio at explicabo, perferendis iure temporibus placeat sequi?</p>
+            <a href="menu.html" class="btn btn-home" style="border: 1px solid rgba(0, 0, 0, 0.54); color: rgb(0, 0, 0)"><b>Order Now</b></a>
+            
+        </div>
+
+        <div class="image col-6 text-center bg-warning"  style=" margin-top: -20px;">
+   
+            <section>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide--one">
+                        <span>domestic</span>
+                        <div>
+                        <h2>Enjoy the exotic of sunny Hawaii</h2>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            Maui, Hawaii
+                        </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--two">
+                        <span>subtropical</span>
+                        <div>
+                        <h2>The Island of Eternal Spring</h2>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            Lanzarote, Spanien
+                        </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide swiper-slide--three">
+                        <span>history</span>
+                        <div>
+                        <h2>Awesome Eiffel Tower</h2>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            Paris, France
+                        </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide swiper-slide--four">
+                        <span>Mayans</span>
+                        <div>
+                        <h2>One of the safest states in Mexico</h2>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            The Yucatan, Mexico
+                        </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide swiper-slide--five">
+                        <span>native</span>
+                        <div>
+                        <h2>The most popular yachting destination</h2>
+                        <p>
+    
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            Whitsunday Islands, Australia
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+               
+                    <div class="swiper-pagination"></div>
+                </div>
+                </section>
+        </div>
+    </section>
+    <br><br><br> -->
+
+
+    <!-- SLIDER BANNER  -->
+    <div class="container-fluid">
+        <div class="banner2 row slide-row">
+    
+            <div class="slide-ban col-md-4 col-sm-12 text-center">
+                <h1 class=" title2 mt-4 text-center  animate__animated animate__backInLeft">Filipino Food <br><span class="slide-anim1" style="color:#fbb337 "> S u p e r </span> Delicious! </h1>
+                    <hr id="line1" class="w-50 my-auto mx-auto">
+                    <p class="caption1 fs-3 text-center  animate__animated  animate__fadeInDown">Opens 8:00 - 13:00 <br>18:00 - 21:00 </p>
+                    <a href="https://maps.app.goo.gl/hFe9QQsxbdHEe2Zg6"> <img class="icon-hover rotate" src="https://cdn-icons-png.flaticon.com/128/819/819865.png" style="height: 40px; width: 40px;"></a>
+              
+            </div>
+
+            <div class="slide-ban col-md-8 col-sm-12">
+                <section>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide--one">
+                        <span>Vegan Friendy</span>
+                        <div>
+                            <h2>KARE-KARE</h2>
+                                <h3 class="ms-4 mb-4 food-rating fs-5">                            
+                                    <div class="rating">
+                                    <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                                    <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                                    <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                                    <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                                    <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                                    </div>
+                                </h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--two">
+                        <span>Vegan Friendly</span>
+                        <div>
+                        <h2>SHANGHAI</h2>
+                        <h3 class="ms-4 mb-4 food-rating fs-5">                            
+                            <div class="rating">
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            </div>
+                        </h3>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide swiper-slide--three">
+                        <span>CUSTOMER PICKS</span>
+                        <div>
+                        <h2>Crispy Pata</h2>
+                        <h3 class="ms-4 mb-4 food-rating fs-5">                            
+                            <div class="rating">
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            </div>
+                        </h3>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide swiper-slide--four">
+                        <span>FREE DESSERT</span>
+                        <div>
+                        <h2 class="text-capitalise">MAMOM CHEESECAKE </h2>
+                        <h3 class="ms-4 mb-4 food-rating fs-5">                            
+                            <div class="rating">
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            </div>
+                        </h3>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide swiper-slide--five">
+                        <span>FREE DESSERT</span>
+                        <div>
+                        <h2>ENSYMADA</h2>
+                        <h3 class="ms-4 mb-4 food-rating fs-5">                            
+                            <div class="rating">
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            <ion-icon style="color: rgb(223, 127, 50);" name="star"></ion-icon>
+                            </div>
+                        </h3>
+                        </div>
+                    </div>
+                    </div>
+                  
+                    <div class="swiper-pagination"></div>
+                </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <!-- ABOUT -->
+    <div class="container-fluid">
+        <div class="title4 text-center d-inline">
+            <p id="about-title" class="mt-2 mb-3"> <i class="bi bi-search text-muted me-4 fs-2"></i> How it works... </p>
+        </div>
+
+        <div class="container who-container text-center mt-4">
+            <div class="circle who-box p-4">
+                <ul class="howlist p-3">
+                <li><img class="mt-3" src="images/food-delivery.png" style="height:150px; width: 150px;"></li>
+                <li> <h4 class="mt-3"><b>Choose Your Favorite Food</b></h3></li>
+                <li><p>Craving Filipino meals? Choose from our <button id="btn-about" class="btn b-0 p-0 px-2 py-1"  onclick = "window.location.href='menu.html'"> menu </button> right here, right on our website with ease. </p></li>
+                </ul>
+            </div>
+            <div class="who-box p-4">
+                <ul class="howlist p-3">
+                <li><img class="mt-3" src="images/fast-delivery.png" style="height: 150px; width: 150px;"></li>
+                <li> <h4 class="mt-3"><b>Get delivery at your <span class="text-decoration-line-through" style="color: rgba(225, 102, 57, 0.801);">food</span> foot step. </b></h3></li>
+                <li><p>Your food at your foot step with only a few clicks! Delivery is reliable and fast!</p></li>
+                </ul>
+            </div>
+            <div class="who-box p-4">
+                <ul class="howlist p-3">
+                <li><img class="mt-3" src="images/driver-rating.png" style="height: 150px; width: 150px;"></li>
+                <li> <h4 class="mt-3"><b>Enjoy your meal made with love and care! </b></h3></li>
+                <li><p>Our meals are all freshly cooked. Enjoy the warmth of our homey meals and don't forget to leave a review! <i class="bi bi-star"></i></p></li>
+                </ul>
+            </div>
+          </div>
+
+    </div>
+    <br><br><br><br>
+
+    <!-- SOLO MEALS SECTION -->
+    <div id="solo-main" class="container-fluid text-center">
+        <!-- <div class="solo-header p-3">
+            <p id="solo-title" class="mt-2"> Solo Meals </p>
+        </div> -->
+        <div class="solo-row row pt-2 p-4">
+            <div class="col-md-4">
+                <div class="">
+                    <img src="images/40.png" style="height: 330px; width: 340px; object-fit: contain;">
+                    <div class="solo-text container">
+                        <h4 class="solo-name text-uppercase"><b>Kare-kare Classico & Lumpiang Gulay</b></h4>
+                        <h5 class="solo-desc"> A peanut based stew spiced with annatto powder paired with fresh lumpia. </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/43.png" style="height: 330px; width: 340px; object-fit: contain;">
+                <div class="solo-header p-1">
+                    <p id="solo-title" class="mt-2"> Seasonal Solo Meals </p>
+                    <!-- <button id="btn-banner2" class="btn b-0 p-0 px-2 py-1"  onclick = "window.location.href='menu.html'"> <i class="bi bi-shop fs-3 me-2"></i> Shop </button> -->
+                </div>
+                <div card="card-body">
+                    <img src="images/41.png" style="height: 330px; width: 340px; object-fit: contain;">
+                    <div class="solo-text container">
+                        <h4 class="solo-name text-uppercase";><b>72h Bagnet & Pinakbet ng Laoag</b></h4>
+                        <h5 class="solo-desc"> Consists of eggplants, okra, squash, stingbeans, bagoong alamang. </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div card="card-body">
+                    <img src="images/42.png" style="height: 330px; width: 340px; object-fit: contain;">
+                    <div class="solo-text container">
+                    <h4 class="solo-name text-uppercase";><b>Inihaw na Manok sa Anato & Ensaladang Talong</b></h4>
+                    <h5 class="solo-desc"> Marinated in a sweet-savory sauce that includes calamansi and a soft drink. </h5>
+                    </div>  
+                </div>
+            </div>
+        </div>
+   
+    </div>
+
+    <!-- AD -->
+    <div class="container-fluid p-5"  style="background-image: url(images/ad.png);  height: 50vh; background-size: cover; background-attachment: fixed;">
+        <div class="">
+            
+        </div>
+    </div>
+    <br><br>
+    
+    <!-- BLOGS -->
+    
+
+
+    <!-- CAROUSEL -->
+    <div class="carousel-header p-3 text-center">
+        <p id="carousel-title" class="mt-2"> Shop Online or Eat On-site ! </p>
+        <h4 class="mt-2"> Whatever you choose, the food served will still taste the same - <span style="border-bottom: 4px solid rgb(209, 65, 12); color: rgb(209, 65, 12)">fresh</span> and <span style="border-bottom: 4px solid rgb(29, 25, 145); color: rgb(32, 28, 130)"> delicious</span> ! </h4>
+    </div><br>  
+    <div class="carousel-cont container">
+        <div class="carousel-cont2 container p-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/03/30/08/11/barbecue-2187508_1280.jpg" alt="First slide">
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>My Caption Title (1st Image)</h5>
+                            <p>The whole caption will only show up if the screen is at least medium size.</p>
+                        </div> -->
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://www.kabayanhotel.com.ph/wp-content/uploads/2023/05/SALO-Restaurant-1-jpg.webp" alt="Second slide" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://www.kabayanhotel.com.ph/wp-content/uploads/2023/01/Salo-Function-4.jpeg.webp" alt="Third slide">
+                    </div>
+                </div>
+                <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
+            </div>
+        </div>
+       
+    </div>
+    <br><br><br> <br>
+
+    <!-- GRID  -->
+    <div class="container">
+        <div class="categ-header p-3 text-center">
+            <img src="https://cdn-icons-png.flaticon.com/128/7608/7608383.png" style="height: 95px; width: 90px;">
+            <p id="categ-title" class="mt-3"> Which one would you like delivered to you today ?  </p>
+        </div>
+        <div class="categ-body container-fluid mt-4" style="background-color: #5b74be;">
+            <div class="row" style="background-color: #fffaf300;">
+                <!-- <span><img src="images/16.png" class="my-3" style="width: 80px; height: 27px;"></span><hr> -->
+                <div style="display: flex; justify-content: space-between;">
+                    <img src="images/16.png" class="my-3" style="width: 80px; height: 27px;">
+                    <img src="images/icon.png" class="mt-2" style="width: 60px; height: 47px;">
+                </div>
+
+                <div class="col-md-6">
+                    <img class="img-hover-zoom  grid-img mb-5 img-fluid mx-auto d-block mt-1" src="https://static.chatfood.io/static/max-restaurant/menu/bogo-kare-kare_1584736118.jpg?fm=jpeg&h=300&w=300&q=90&fit=crop&crop=center" style="width: 300px; height: 300px;">
+                </div>
+                <div class="col-md-6 mt-2">
+                    <h3 class="mb-4 ms-4" style="color: rgb(37, 37, 37);"><b>"Kare-Kare Classico"</b></h3>
+                    <p class="grid-desc me-4 ms-4 mb-4" style="font-size: 17px;">
+                         <span style="color: rgb(220, 206, 206);">Medium ₱600 | Large ₱1,100 </span><br> <br><span class="text-decoration-underline"><b>Tender</b></span> beef brisket and tripe stew with vegetables in rich peanut sauce made from scatch using native peanuts and ground rice.
+                         <button  class="btn-grid btn b-0 p-0 px-2 py-1"  onclick = "window.location.href='menu.html'"> <i class="bi bi-shop fs-5 me-2"></i> Shop </button> 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row mt-4" style="background-color: rgb(234, 222, 213);">
+                <div class="col-md-6 mt-5">
+                    <h3 class="mb-4 ms-4" style="color: rgb(222, 64, 16);"><b>"Crispy Pata FLP Style"</b></h3>
+                    <p class="grid-desc me-4 ms-4 mb-4" style="font-size: 17px;">
+                         <span style="color:  rgb(220, 206, 206);">Medium ₱600 | Large ₱1,100<br> </span> <br>Tender pork knuckles cooked to a <span style="color: rgb(255, 192, 31);"> c r i s p  </span> with a special mix of aromatics.
+                         <button  class="btn-grid btn b-0 p-0 px-2 py-1"  onclick = "window.location.href='menu.html'"> <i class="bi bi-shop fs-5 me-2"></i> Shop </button> 
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-hover-zoom  grid-img mb-5 img-fluid mx-auto d-block mt-4" src="https://www.foxyfolksy.com/wp-content/uploads/2019/12/crispy-pata-640.jpg" style="width: 300px; height: 300px;">
+                </div>
+            </div>
+            <div class="row mt-4" style="background-color:  #ffffff00;">
+                <div class="col-md-6">
+                    <img class="img-hover-zoom  grid-img mb-5 img-fluid mx-auto d-block mt-4" src="https://ulamideas.com/wp-content/uploads/2023/06/Daing-na-Bangus-768x1024.jpg" style="width: 300px; height: 300px;">
+                </div>
+                <div class="col-md-6 mt-3">
+                    <h3 class="mb-4 ms-4" style="color: rgb(17, 17, 17);"><b>"Bangus Salpicao"</b></h3>
+                    <p class="grid-desc me-4 ms-4 mb-4" style="font-size: 17px;">
+                         <span style="color:  rgb(220, 206, 206);">Medium ₱600 | Large ₱1,100 </span> <br><br> <span class="text-decoration-underline" style="color: rgb(24, 24, 24);"> Plump  </span> bangus bellies sautéed in olive oil garlic, chillies, and special aromatics
+                         <button  class="btn-grid btn b-0 p-0 px-2 py-1"  onclick = "window.location.href='menu.html'"> <i class="bi bi-shop fs-5 me-2"></i> Shop </button> 
+                    </p>
+                </div>
+            </div>
+      
+        </div>
+    </div>
+
+    <!-- RANDOM JS GAME-->
+    <div class="game-cont container-fluid text-center p-4">
+        <h1 class="game-title1 text-center" > Can't Choose ? Let's Play !</h1><br>
+        
+        <div class="game-cont2 container-fluid p-4">
+            <h1 id="quote" class="game-title text-center mb-1" > <i class="bi bi-pencil text-muted me-3 fs-2"></i> Your possible next meal here ...</h1><br>
+            <div class="container p-1">
+                <img src="images/question-mark.png" id="rndm-meal" class="me-3" style="width: 180px; height: 190px">
+            </div><br>
+            <h4 id="text">Feeling indecisive on what to eat on our menu ? Click the button and get inspired </h4>
+            <!-- <button class="footer-btn rounded-3 border border-0 my-5 Randombutton"  type="button" 
+            value="Randomize" onclick="randomImg()">Play</button></a> -->
+            <input id="btn-game" class="mx-auto rounded-3 my-5 Randombutton" style="float: center;" type="button" 
+            value="Randomize" onclick="randomImg()">
+        </div>
+
+    </div>
+    <br>
+ 
+    <!-- BLOG -->
+    <!-- <div class="blog-cont container-fluid d-flex justify-content-center align-items-center p-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card blog-cards m-0 p-0" style="width: 24rem;">
+                    <div class="" style="display: flex;">
+                        <img src="images/icon.png" class="mt-1 ms-3" style="width: 40px; height: 40px;">
+                        <p class="mt-3 ms-3"><b>funlasangpinoy</b></p>
+                    </div>
+                    <img src="https://www.allrecipes.com/thmb/VGSUB6EP5YtEx4HxB1t9584PzEA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Beef-Stir-Fry-with-Snow-Peas-2000-eaa56c8a960f447c816c9de642a21c70.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card m-0 p-0" style="width: 24rem;">
+                <img src="https://www.allrecipes.com/thmb/VGSUB6EP5YtEx4HxB1t9584PzEA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Beef-Stir-Fry-with-Snow-Peas-2000-eaa56c8a960f447c816c9de642a21c70.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card m-0 p-0" style="width: 24rem;">
+                <img src="https://www.allrecipes.com/thmb/VGSUB6EP5YtEx4HxB1t9584PzEA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Beef-Stir-Fry-with-Snow-Peas-2000-eaa56c8a960f447c816c9de642a21c70.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            </div>
+
+
+
+
+        </div>
+    </div> -->
+
+    <!-- POP UP AD --> 
+    <div class="popup p-0 m-0">
+        <button id="close">&times;</button>
+        <div class="col-md-12 p-5">
+            <img src="https://cdn-icons-png.flaticon.com/128/5869/5869112.png" class="mb-2" style="width: 130px;">
+        </div>
+        <div class=" col-md-12 bg-light p-4">
+        <p class="ad-text m-4 mx-3">
+            Join the most delicious <span style="color: rgb(199, 81, 30)"><b>rewards program. </b></span><span class="text-decoration-underline">Sign up</span> today to receive newsletters about our restaurant!</span>
+        </p>
+        <form>
+            <input class="footer-input w-75 mt-2 mx-2" type="email" name="email" placeholder="Enter your Email" autocomplete="off" required>
+            <a class="my-4 w-75" href="#">
+                <button class="btn btn-popup b-1 mt-1 py-2 mb-2" type="submit">Subscribe Now</button>
+            </a>
+        </form>
+        </div>
+    </div>
+    
+    <!--  MODAL -->
+    <!-- <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+              <img src="https://cdn-icons-png.flaticon.com/128/12050/12050291.png" class=" mx-auto" style="width: 100px; height: 100px;">
+                <br>
+                <p id="modal-summary"></p>
+                <div class="container text-center">
+                    <button onclick="window.location.href= 'checkout.html';" id="place-order" class="btnhover rounded-3 w-50 btn-buy p-2" >Pay Now</button>
+                </div>
+            </div>
+    </div> -->
+
+
+    <!-- MISSION -->
+    <div class="container-fluid bg-overlay2 d-flex align-items-center justify-content-center">
+        <div class="row text-center mx-auto my-auto" style="float: center; ">
+            <h3 class="mt-4">"To inspire and nurture our Filipino heritage – one person, one plate and one neighborhood at a time.”<br></h3>
+            <!-- <p class="fs-5">Join today and start getting fresh produce at an affordable price.</p>
+            <br>
+            <a class="btn btn-outline-success" style="background-color: rgba(241, 241, 241, 0.989); width: 150px;" href="registration.html" role="button">Link</a> -->
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="footer" class="footer container-fluid" style="color: #e4d4b5;">
+        <div class="row p-2">
+            <div class="col-md-4 mt-4">
+                <a href="index.html"><img src="images/18.png" class="mx-auto my-3 d-flex align-items-center" style="width: 220px; height: 170px;"></a> 
+                <div class="text-center mt-3" style="margin-left: -19px!important;">
+                    <a href="#"><img src="images/ig.png" class="me-2" style="height: 30px; width: 30px;"></a>
+                    <a href="#"><img src="images/fb.png" class="mx-2" style="height: 30px; width: 30px;"></a>
+                    <a href="#"><img src="images/utube.png" class="ms-2" style="height: 30px; width: 30px;"></a>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mt-5 pt-1 justify-content-center" style="text-align: center;">
+                <ul class="mx-auto my-auto m-0" style="display: inline-block; text-align: left;">
+                    <li><a href="index.html"  class="quicklinks text-decoration-none me-5"> Home</a></li>
+                    <br>
+                    <li><a href="about.html" class="quicklinks text-decoration-none"> About</a></li>
+                    <br>
+                    <li><a href="menu.html" class="quicklinks text-decoration-none"> Our Menu</a></li>
+                    <br>
+                    <li><a href="order.html" class="quicklinks text-decoration-none"> Order</a></li>
+                    <br>
+                    <li><a href="contact.html" class="quicklinks text-decoration-none"> Contact</a></li> 
+                </ul>
+            </div>
+
+            <div class="col-md-4 mt-5  text-center p-1 justify-content-center" style="text-align: center;">
+                <ul class="me-4">
+                    <li><img class="me-2 mb-2" style="height: 24px; width: 24px;" src="https://cdn-icons-png.flaticon.com/128/10831/10831906.png"><br>
+                        <a href="#" class="quicklinks text-decoration-none">B12-L34 ABCD Street, Metro Manila </a></li><br>
+                    <li><img class="me-2 mb-2" style="height: 24px; width: 24px" src="https://cdn-icons-png.flaticon.com/128/10525/10525324.png"><br>
+                      <a href="#" class="quicklinks text-decoration-none">+63 123 456 7890</a></li><br>
+                    <li><img class="me-2 mb-2" style="height: 24px; width: 24px" src="https://cdn-icons-png.flaticon.com/128/10828/10828619.png"><br>
+                      <a href="#" class="quicklinks text-decoration-none">Email Us</a></li>
+                </ul>
+                <br>
+                <!-- <div class="text-center" style="margin-left: -19px!important;">
+                    <a href="#"><img src="images/ig.png" class="me-2" style="height: 30px; width: 30px;"></a>
+                    <a href="#"><img src="images/fb.png" class="mx-2" style="height: 30px; width: 30px;"></a>
+                    <a href="#"><img src="images/utube.png" class="ms-2" style="height: 30px; width: 30px;"></a>
+                </div> -->
+            </div>
+        </div><hr class="text-dark">
+
+        <div class="row mt-3 text-center">
+            <div class="col-12">
+                <p class="mt-2" style="color: #1818188d; font-size: 13px;"> © All rights go to their respectful owners. </p> 
+                <p style="color: #2828288e; font-size: 13px;"><u>Privacy Policy</u> │ <u>Refund Policy</u> │ <u>Shipping Policy</u> │ <u>Terms of Service </u></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- CAROUSEL -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- JS SLIDER -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
+    <!-- JS FILE -->
+    <script src="js/index.js"></script>
+</body>
+</html>
